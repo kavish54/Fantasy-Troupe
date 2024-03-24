@@ -64,7 +64,7 @@ public class loginsServlet extends HttpServlet {
 			st.setString(4, username);
 			st.setString(5, phone);
 			st.executeUpdate();
-			System.out.println("Succesfully added");
+			System.out.println("Succesfully added to the database");
 			conn.close();
 		} catch (Exception e) {
 			// TODO: handle exception
