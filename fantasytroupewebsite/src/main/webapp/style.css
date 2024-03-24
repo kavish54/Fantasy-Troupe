@@ -1,0 +1,86 @@
+@charset "UTF-8";
+body{
+    background-color: #F1F1F2;
+}
+
+.regtitle {
+    text-align: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+}
+.logo{
+    padding-top: 50px;
+}
+.regform {
+    width: 30%;
+    margin: 50px auto;
+    border-style: groove;
+    border-radius: 10px;
+    padding-left: 65px;
+    padding-right: 65px;
+    text-align: center;
+    background-color: #E7E8D1;
+}
+.signin{
+    text-decoration: underline;
+    color: black;
+}
+.terms{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0px;
+    display: flex;
+}
+form {
+    text-align: left;
+    /* Center-align form elements */
+}
+.formlabels{
+    display: block;
+    /* margin-top: 0px; */
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    
+}
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="tel"]{
+    width: 100%;
+    /* Make form elements take full width */
+    padding: 10px;
+    /* Add padding for better appearance */
+    margin-bottom: 20px;
+    /* Add space between form elements */
+    box-sizing: border-box;
+    /* Include padding and border in element's total width and height */
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 24px !important;
+    box-shadow: none !important;
+    outline: 0;
+    /* opacity: 50%; */
+}
+input:hover{
+    /* opacity: 100%; */
+    /* border-color: transparent; */
+    background-color: rgba(127, 229, 255, 0.539);
+    /* box-shadow: 0 0 10px 0 orange; */
+}
+.submitbutton{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 50% !important; /* Optional: adjust the width as needed */
+    background-color: black;
+    color: white;
+}
+.submitbutton:hover{
+    background-color: rgb(13, 70, 70);
+    color: greenyellow;
+}

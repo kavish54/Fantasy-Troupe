@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="regform">
+
+        <img class="logo"
+            src="https://m.media-amazon.com/images/G/01/goodreads/Goodreads-Logo-AuthPortal._CB646706455_.png"
+            alt="Goodreads">
+        <h2 class="regtitle">Create Account</h2>
+        <form action="loginsServlet" method="post">
+            <label class="formlabels">Your Name*</label>
+            <input class="forminputs" type="text" name="name" id="name" required><br>
+            <label for="email" class="formlabels">Email*</label>
+            <input type="text" name="email" id="email" class="forminputs"><br>
+            <label class="formlabels" for="password">Enter password*</label>
+            <input type="password" name="password" id="password" placeholder="At Least 6 characters"><br>
+            <label class="formlabels" for="cpass">Confirm password*</label>
+            <input type="password" name="cpass" id="cpass"><br>
+            <label for="username" class="formlabels">Create a Username*</label>
+            <input type="text" name="username" id="username">
+            <label for="phone" class="formlabels">Mobile Number (optional)</label>
+            <input type="tel" name="phone" id="phone">
+            <div class="terms">
+                <input type="checkbox" name="terms" id="terms"> 
+                <p>I agree to the terms and conditions.</p><br>
+            </div>
+            <input type="submit" value="Create account" class="submitbutton">
+        </form>
+        <p>Already have an account? <a class="signin" href="#">Sign in</a></p>
+    </div>
+</body>
+<!-- https://m.media-amazon.com/images/G/01/goodreads/Goodreads-Logo-AuthPortal._CB646706455_.png -->
+</html>
